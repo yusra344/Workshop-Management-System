@@ -18,6 +18,3 @@ This is a Workshop Management System. It includes features for real-time enrollm
 
 ## API Documentation
 [Postman Collection](#)
-git add README.md
-git commit -m "Add README.md file"
-git push origin main
