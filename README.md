@@ -31,28 +31,3 @@ Backend Framework: Node.js
 ## API Documentation
 [Postman Collection](#)
 
-## Folder Structure
-Workshop-management-system
-app.js         # Main application file
-├── app.js                  # Main application file
-
-
-workshop-management-system/
-│
-├── app.js                  # Main application file
-├── routes/                 # API routes
-│   ├── workshopRoutes.js   # Workshop-related routes
-│   ├── learnerRoutes.js    # Learner-related routes
-│   └── activityRoutes.js   # Activity-related routes
-├── controllers/            # Business logic
-│   ├── workshopController.js
-│   ├── learnerController.js
-│   └── activityController.js
-├── models/                 # Database models
-│   ├── workshopModel.js
-│   ├── learnerModel.js
-│   └── activityModel.js
-├── config/                 # Configuration files
-│   └── db.js               # Database connection
-└── README.md               # Project documentation
-
