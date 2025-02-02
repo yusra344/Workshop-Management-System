@@ -25,6 +25,24 @@ Backend Framework: Node.js
 - MySQL for structured data (workshops, activities, enrollments).
 - Firebase for real-time notifications and push notifications.
 
+workshop-management-backend/
+│
+├── app.js                  # Main application file
+├── routes/                 # API routes
+│   ├── workshopRoutes.js   # Workshop-related routes
+│   ├── learnerRoutes.js    # Learner-related routes
+│   └── activityRoutes.js   # Activity-related routes
+├── controllers/            # Business logic
+│   ├── workshopController.js
+│   ├── learnerController.js
+│   └── activityController.js
+├── models/                 # Database models
+│   ├── workshopModel.js
+│   ├── learnerModel.js
+│   └── activityModel.js
+├── config/                 # Configuration files
+│   └── db.js               # Database connection
+└── README.md               # Project documentation
 # Third-Party Integrations:
 - Google Calendar API for scheduling and tracking.
 - Real-Time Notifications: Firebase Cloud Messaging (FCM) for real-time updates to mentors and learners.
