@@ -32,6 +32,10 @@ Backend Framework: Node.js
 [Postman Collection](#)
 
 ## Folder Structure
+Workshop-management-system
+app.js         # Main application file
+├── app.js                  # Main application file
+
 
 workshop-management-system/
 │
