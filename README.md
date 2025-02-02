@@ -25,7 +25,18 @@ Backend Framework: Node.js
 - MySQL for structured data (workshops, activities, enrollments).
 - Firebase for real-time notifications and push notifications.
 
-workshop-management-backend/
+
+workshop-management-system/
+  ├── public/                 # Static assets (CSS, images, etc.)
+  ├── views/                  # EJS views
+  ├── routes/                 # Express.js route handlers
+  ├── models/                 # Data models
+  ├── controllers/            # Controllers for handling business logic
+  ├── config/                 # Configuration files
+  ├── app.js                  # Express.js application setup
+  ├── README.md               # Project readme file
+  └── ...
+workshop-management-system/
 │
 ├── app.js                  # Main application file
 ├── routes/                 # API routes
